@@ -34,7 +34,7 @@ def root():
     return {
         "application": settings.app_name,
         "environment": settings.environment,
-        "status": "running",
+        "status": "running phase 3 test",
     }
 
 @app.get("/health")
